@@ -7,3 +7,9 @@ jobs:
     steps:                           
     - name: Print a greeting                             
       run: echo Hi from our first workflow!
+  scond-job:                           
+    name: Say hi again                           
+    runs-on: ubuntu-latest                           
+    steps:                           
+    - name: Print a greeting                             
+      run: echo Hi from our first workflow!      
